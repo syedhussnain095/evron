@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif !important;
+}
+.Login_Outer {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px !important;
+  overflow: hidden !important;
+
+  .Outer_Login {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  .for_flex {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .form_input_data_login_form_one {
+    color: #2553a5 !important;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+  }
+  .form_input_data_login_form_two,
+  .last_login_data p:nth-child(1),
+  .last_login_data p:nth-child(2) {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+  }
+  .last_login_data p:nth-child(2) {
+    color: #2553a5 !important;
+  }
+  .btn_Login {
+    background: #2553a5 !important;
+    color: #fff !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .not_For_display {
+    display: none !important;
+  }
+  #Login_Outer {
+    margin: 0% 3% !important;
+  }
+  .Outer_Login {
+    margin-top: 30px !important;
+  }
+}
